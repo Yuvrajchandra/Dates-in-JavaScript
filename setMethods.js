@@ -18,4 +18,6 @@ let d = new Date();
 d.setMilliseconds(548);
 console.log(d);
 
-// Similarly, you can use the setMinutes(), setMonth(), and setSeconds() methods to set the minutes (0-59), month (0-11), and seconds (0-59) respectively for a specified date according to local time.
+// Similarly, you can use the setMinutes(), setMonth(), and setSeconds() methods 
+// to set the minutes (0-59), month (0-11), and seconds (0-59) respectively 
+// for a specified date according to local time.
