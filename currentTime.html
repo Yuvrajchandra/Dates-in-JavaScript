@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Current Time</title>
+    </head>
+    <body>
+        <p id="target"></p>
+    </body>
+
+    <script type="text/javascript">
+        var current = new Date();
+        var hour = current.getHours();
+        var minute = current.getMinutes();
+        document.getElementById('target').innerHTML = hour + ":" + minute;
+    </script>
+</html>
